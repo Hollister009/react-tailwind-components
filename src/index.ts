@@ -1,3 +1,3 @@
 import './index.css';
 
-export { default as TestComponent } from './components/TestComponent';
+export { default as Card } from './components/Card';
