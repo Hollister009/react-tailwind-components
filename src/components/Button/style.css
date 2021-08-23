@@ -1,0 +1,16 @@
+.btn {
+  @apply cursor-pointer capitalize py-2 px-4 text-sm rounded-md font-sans transform transition-transform;
+}
+
+.btn:hover {
+  transform: translate3d(0px, -2px, 0px);
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 6px 0px;
+}
+
+.btn-primary {
+  @apply bg-purple-500 text-white hover:bg-purple-700;
+}
+
+.btn-secondary {
+  @apply bg-white text-purple-500 border border-purple-500 hover:border-purple-700 hover:text-purple-700;
+}
